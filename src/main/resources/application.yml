@@ -1,0 +1,18 @@
+#spring boot application
+spring:
+  application:
+    name: service-batch-gam
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/testsdb
+      #database: testsdb
+#mongodb config connection
+#customer configuration
+batch-gam:
+  csv:
+    headers: "contractKey,hiringDate,lowerLimit,potentialLimit,dueDate,notifications,minimumAmount,
+    amountPayment,cardNumber,typeCard,displayNumber,status,customerKey"
+  result:
+    folder: data/results/output-%s.csv
+  date:
+    format: yyyy-MM-dd

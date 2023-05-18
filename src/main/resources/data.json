@@ -1,0 +1,17 @@
+{
+  "contract_key": "00946030321148364581",
+  "hiring_date": new ISODate("2021-03-20T11:30:05Z"),
+  "data": {
+    "card_number": "0465470000065781",
+    "customer_key": "51871469",
+    "display_number": "0465",
+    "due_date": new Date("2012-01-21"),
+    "lower_limit": 100000.00,
+    "potential_limit": 250000.00,
+    "minimum_amount": 100.00,
+    "amount_payment": 600.00,
+    "type_card": "Like U Red",
+    "status": "ACTIVE"
+  },
+  "notifications": true
+}
